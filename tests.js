@@ -66,6 +66,12 @@ describe('isFive', function () {
     it('should return true when passed \'5\'', function () {
         expect(isFive("5")).toBe(true);
     });
+    it('should return false when passed 8', function() {
+        expect(isFive(8)).toBe(false);
+    });
+    it('should return false when passed 35', function() {
+        expect(isFive(35)).toBe(false);
+    });
 });
 
 describe('isEven', function () {
