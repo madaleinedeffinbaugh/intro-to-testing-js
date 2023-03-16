@@ -23,3 +23,16 @@ function isFive(input) {
     }
 }
 
+function isEven(input) {
+    if (typeof input == 'undefined' || input == null) {
+        return false;
+    } else {
+        input = input.toString();
+        if (Number(input % 2 == 0)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
+
