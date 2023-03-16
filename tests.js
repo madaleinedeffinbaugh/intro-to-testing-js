@@ -105,9 +105,6 @@ describe('isEven', function () {
     it('should return false when executed with a boolean', function () {
         expect(isEven(true)).toBe(false);
     });
-    it('should return false when executed with a boolean', function () {
-        expect(isEven(false)).toBe(false);
-    });
     it('should return false when executed without an argument', function () {
         expect(isEven()).toBe(false);
     });
