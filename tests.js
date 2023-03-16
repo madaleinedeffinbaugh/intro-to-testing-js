@@ -99,10 +99,10 @@ describe('isEven', function () {
     it('should return false when executed with Infinity', function () {
         expect(isEven(Infinity)).toBe(false);
     });
-    it('should return false when executed with a boolean', function () {
+    it('should return false when executed with a boolean of false', function () {
         expect(isEven(false)).toBe(false);
     });
-    it('should return false when executed with a boolean', function () {
+    it('should return false when executed with a boolean of true', function () {
         expect(isEven(true)).toBe(false);
     });
     it('should return false when executed without an argument', function () {

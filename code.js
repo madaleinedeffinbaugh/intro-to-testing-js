@@ -2,11 +2,6 @@
 function helloWorld() {
     return "Hello, World!";
 }
-
-// const helloWorld = function() {
-//     return "Hello, World!";
-// }
-
 function sayHello(name) {
     if (typeof name == 'string' && name != "" && isNaN(name)) {
         return "Hello, " + name + "!";
@@ -57,5 +52,5 @@ function add(inputOne, inputTwo) {
     }
 }
 
-// console.log(add(2, "apples"));
-// console.log(add())
+
+
