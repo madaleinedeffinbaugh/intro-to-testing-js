@@ -31,4 +31,25 @@ describe('sayHello', function() {
     it('should return \'Hello, Pat!\' when passed \'Pat\'', function() {
         expect(sayHello('Pat')).toBe('Hello, Pat!');
     });
+    it('should display Hello World when called without parameters', function() {
+        expect(sayHello()).toBe("Hello, World!");
+    });
+    it('should display Hello World when called with true', function() {
+        expect(sayHello(true)).toBe("Hello, World!");
+    });
+    it('should display Hello World when called with false', function() {
+        expect(sayHello(false)).toBe("Hello, World!");
+    });
+    it('should display Hello World when called with null', function() {
+        expect(sayHello(null)).toBe("Hello, World!");
+    });
+    it('should display Hello World when called with \"\"', function() {
+        expect(sayHello("")).toBe("Hello, World!");
+    });
+    it('should display Hello World when called with a number', function() {
+        expect(sayHello(56)).toBe("Hello, World!");
+    });
+    it('should display Hello World when called with a number as a string', function() {
+        expect(sayHello("56")).toBe("Hello, World!");
+    });
 });
