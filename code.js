@@ -14,3 +14,12 @@ function sayHello(name) {
         return "Hello, World!";
     }
 }
+
+function isFive(input) {
+    if (Number(input) == 5) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
