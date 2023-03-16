@@ -1,4 +1,4 @@
-h//elloWorld function
+//helloWorld function
 function helloWorld() {
     return "Hello, World!";
 }
@@ -36,3 +36,15 @@ function isEven(input) {
     }
 }
 
+function isVowel(input) {
+    var vowels = ['a', 'e', 'i', 'o', 'u', 'y'];
+    if (typeof input == 'string' && input.length == 1) {
+        if(vowels.includes(input.toLowerCase())) {
+            return true;
+        } else {
+            return false;
+        }
+    } else {
+        return false
+    }
+}
