@@ -48,3 +48,14 @@ function isVowel(input) {
         return false
     }
 }
+
+function add(inputOne, inputTwo) {
+    if(isNaN(inputOne) || isNaN(inputTwo)) {
+        return "NaN";
+    } else {
+        return Number(inputOne) + Number(inputTwo);
+    }
+}
+
+// console.log(add(2, "apples"));
+// console.log(add())
